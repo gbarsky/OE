@@ -1,0 +1,161 @@
+/*
+ * XML Type:  Product
+ * Namespace: http://amdocs/iam/pd/webservices/productOffer/ProductTypeListOutput
+ * Java type: amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product
+ *
+ * Automatically generated - do not modify.
+ */
+package amdocs.iam.pd.webservices.productoffer.producttypelistoutput;
+
+
+/**
+ * An XML Product(@http://amdocs/iam/pd/webservices/productOffer/ProductTypeListOutput).
+ *
+ * This is a complex type.
+ */
+public interface Product extends org.apache.xmlbeans.XmlObject
+{
+    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(Product.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sE25B6F354D94647D4D1C46716B4ED6D5").resolveHandle("product6114type");
+    
+    /**
+     * Gets the "productType" element
+     */
+    java.lang.String getProductType();
+    
+    /**
+     * Gets (as xml) the "productType" element
+     */
+    org.apache.xmlbeans.XmlString xgetProductType();
+    
+    /**
+     * Sets the "productType" element
+     */
+    void setProductType(java.lang.String productType);
+    
+    /**
+     * Sets (as xml) the "productType" element
+     */
+    void xsetProductType(org.apache.xmlbeans.XmlString productType);
+    
+    /**
+     * Gets the "productTypeName" element
+     */
+    java.lang.String getProductTypeName();
+    
+    /**
+     * Gets (as xml) the "productTypeName" element
+     */
+    org.apache.xmlbeans.XmlString xgetProductTypeName();
+    
+    /**
+     * Sets the "productTypeName" element
+     */
+    void setProductTypeName(java.lang.String productTypeName);
+    
+    /**
+     * Sets (as xml) the "productTypeName" element
+     */
+    void xsetProductTypeName(org.apache.xmlbeans.XmlString productTypeName);
+    
+    /**
+     * Gets the "ProductCustom" element
+     */
+    amdocs.iam.pd.webservices.productoffer.producttypelistoutputimpl.ProductCustom getProductCustom();
+    
+    /**
+     * True if has "ProductCustom" element
+     */
+    boolean isSetProductCustom();
+    
+    /**
+     * Sets the "ProductCustom" element
+     */
+    void setProductCustom(amdocs.iam.pd.webservices.productoffer.producttypelistoutputimpl.ProductCustom productCustom);
+    
+    /**
+     * Appends and returns a new empty "ProductCustom" element
+     */
+    amdocs.iam.pd.webservices.productoffer.producttypelistoutputimpl.ProductCustom addNewProductCustom();
+    
+    /**
+     * Unsets the "ProductCustom" element
+     */
+    void unsetProductCustom();
+    
+    /**
+     * A factory class with static methods for creating instances
+     * of this type.
+     */
+    
+    public static final class Factory
+    {
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product newInstance() {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product newInstance(org.apache.xmlbeans.XmlOptions options) {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, options ); }
+        
+        /** @param xmlAsString the string value to parse */
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.lang.String xmlAsString) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.lang.String xmlAsString, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, options ); }
+        
+        /** @param file the file from which to load an xml document */
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.io.File file) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.io.File file, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.net.URL u) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.net.URL u, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.io.InputStream is) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.io.InputStream is, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.io.Reader r) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(java.io.Reader r, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(javax.xml.stream.XMLStreamReader sr) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(javax.xml.stream.XMLStreamReader sr, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(org.w3c.dom.Node node) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(org.w3c.dom.Node node, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, options ); }
+        
+        /** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, null ); }
+        
+        /** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */
+        public static amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return (amdocs.iam.pd.webservices.productoffer.producttypelistoutput.Product) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, options ); }
+        
+        /** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */
+        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, null ); }
+        
+        /** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */
+        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, options ); }
+        
+        private Factory() { } // No instance of this class allowed
+    }
+}

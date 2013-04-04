@@ -1,0 +1,186 @@
+/*
+ * XML Type:  DataCustom
+ * Namespace: http://amdocs/iam/pd/webservices/productOffer/OfferListInputImpl
+ * Java type: amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom
+ *
+ * Automatically generated - do not modify.
+ */
+package amdocs.iam.pd.webservices.productoffer.offerlistinputimpl;
+
+
+/**
+ * An XML DataCustom(@http://amdocs/iam/pd/webservices/productOffer/OfferListInputImpl).
+ *
+ * This is a complex type.
+ */
+public interface DataCustom extends org.apache.xmlbeans.XmlObject
+{
+    public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(DataCustom.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sE25B6F354D94647D4D1C46716B4ED6D5").resolveHandle("datacustom4366type");
+    
+    /**
+     * Gets the "currency" element
+     */
+    java.lang.String getCurrency();
+    
+    /**
+     * Gets (as xml) the "currency" element
+     */
+    org.apache.xmlbeans.XmlString xgetCurrency();
+    
+    /**
+     * True if has "currency" element
+     */
+    boolean isSetCurrency();
+    
+    /**
+     * Sets the "currency" element
+     */
+    void setCurrency(java.lang.String currency);
+    
+    /**
+     * Sets (as xml) the "currency" element
+     */
+    void xsetCurrency(org.apache.xmlbeans.XmlString currency);
+    
+    /**
+     * Unsets the "currency" element
+     */
+    void unsetCurrency();
+    
+    /**
+     * Gets the "freeOfferInd" element
+     */
+    java.lang.String getFreeOfferInd();
+    
+    /**
+     * Gets (as xml) the "freeOfferInd" element
+     */
+    org.apache.xmlbeans.XmlString xgetFreeOfferInd();
+    
+    /**
+     * True if has "freeOfferInd" element
+     */
+    boolean isSetFreeOfferInd();
+    
+    /**
+     * Sets the "freeOfferInd" element
+     */
+    void setFreeOfferInd(java.lang.String freeOfferInd);
+    
+    /**
+     * Sets (as xml) the "freeOfferInd" element
+     */
+    void xsetFreeOfferInd(org.apache.xmlbeans.XmlString freeOfferInd);
+    
+    /**
+     * Unsets the "freeOfferInd" element
+     */
+    void unsetFreeOfferInd();
+    
+    /**
+     * Gets the "bundleInd" element
+     */
+    java.lang.String getBundleInd();
+    
+    /**
+     * Gets (as xml) the "bundleInd" element
+     */
+    org.apache.xmlbeans.XmlString xgetBundleInd();
+    
+    /**
+     * True if has "bundleInd" element
+     */
+    boolean isSetBundleInd();
+    
+    /**
+     * Sets the "bundleInd" element
+     */
+    void setBundleInd(java.lang.String bundleInd);
+    
+    /**
+     * Sets (as xml) the "bundleInd" element
+     */
+    void xsetBundleInd(org.apache.xmlbeans.XmlString bundleInd);
+    
+    /**
+     * Unsets the "bundleInd" element
+     */
+    void unsetBundleInd();
+    
+    /**
+     * A factory class with static methods for creating instances
+     * of this type.
+     */
+    
+    public static final class Factory
+    {
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom newInstance() {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom newInstance(org.apache.xmlbeans.XmlOptions options) {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newInstance( type, options ); }
+        
+        /** @param xmlAsString the string value to parse */
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.lang.String xmlAsString) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.lang.String xmlAsString, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xmlAsString, type, options ); }
+        
+        /** @param file the file from which to load an xml document */
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.io.File file) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.io.File file, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( file, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.net.URL u) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.net.URL u, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( u, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.io.InputStream is) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.io.InputStream is, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( is, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.io.Reader r) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(java.io.Reader r, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, java.io.IOException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( r, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(javax.xml.stream.XMLStreamReader sr) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(javax.xml.stream.XMLStreamReader sr, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( sr, type, options ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(org.w3c.dom.Node node) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, null ); }
+        
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(org.w3c.dom.Node node, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( node, type, options ); }
+        
+        /** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, null ); }
+        
+        /** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */
+        public static amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom parse(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return (amdocs.iam.pd.webservices.productoffer.offerlistinputimpl.DataCustom) org.apache.xmlbeans.XmlBeans.getContextTypeLoader().parse( xis, type, options ); }
+        
+        /** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */
+        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, null ); }
+        
+        /** @deprecated {@link org.apache.xmlbeans.xml.stream.XMLInputStream} */
+        public static org.apache.xmlbeans.xml.stream.XMLInputStream newValidatingXMLInputStream(org.apache.xmlbeans.xml.stream.XMLInputStream xis, org.apache.xmlbeans.XmlOptions options) throws org.apache.xmlbeans.XmlException, org.apache.xmlbeans.xml.stream.XMLStreamException {
+          return org.apache.xmlbeans.XmlBeans.getContextTypeLoader().newValidatingXMLInputStream( xis, type, options ); }
+        
+        private Factory() { } // No instance of this class allowed
+    }
+}
